@@ -1,0 +1,39 @@
+:root{
+    --detailBackground: #D9D9D9;
+}
+
+.detail-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 6.78vh;
+    margin-bottom: 6.78vh;
+    padding: 16px;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 30px;
+    background-color: var(--detailBackground);
+}
+
+.image-container{
+    border-radius: 30px;
+    width: 50%;
+    height: 80%;
+}
+
+.image{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.table-body{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.table-data{
+    padding: 5px;
+    margin: 10px;
+}

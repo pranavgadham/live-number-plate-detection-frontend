@@ -1,0 +1,9 @@
+:root{
+    --navBackground: #53CBFF;
+    
+}
+
+#navbar{
+    background-color: var(--navBackground);
+    padding: 8px; 
+}
